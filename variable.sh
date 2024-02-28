@@ -20,3 +20,14 @@ ARTH=$((2+3-1))
 
 echo ARTH = ${ARTH}
 
+## Special Variables
+
+echo script name - $0
+
+echo first argument - $1
+
+echo second argument  - $2
+
+echo all arguments - $*
+
+echo No of arguments - $1
