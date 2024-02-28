@@ -4,7 +4,7 @@
 
 function_name() {
 
-  echo Venkatesh Kurra
+  echo VenkateshKurra
 }
 
 function_name
