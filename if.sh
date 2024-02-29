@@ -7,7 +7,7 @@
  exit
    fi
 
- if [ "$fruit_name" == "mango" ]; then
+ if [ "$fruit_name" == "$1" ]; then
 echo quantity is ${quantity}
 else
      echo fruit does not exit
