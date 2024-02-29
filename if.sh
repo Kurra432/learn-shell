@@ -2,7 +2,7 @@
  fruit_name=$1
  quantity=$2
 
- if [ "$fruit_name" == "$1" ]; then
+ if [ "$fruit_name" == "mango" ]; then
 echo quantity is ${quantity}
 else
      echo fruit does not exit
