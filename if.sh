@@ -13,8 +13,10 @@ else
 
    if [ "$quantity" -gt 100 ]; then
 
-     echo Mango price is 0.5$
+     echo mango price is 0.5$
 
      else
-       echo Mango price is 1$
-       fi
+
+       echo mango price is 1$
+
+     fi
