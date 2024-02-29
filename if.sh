@@ -10,3 +10,10 @@ else
    fi
 
    ## Always double Quotes variables in Expressions
+
+   if [ "$quantity" -gt 100 ]; then
+
+     echo Mango price is 0.5$
+
+     else
+       echo Mango price is 1$
