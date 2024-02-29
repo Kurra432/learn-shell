@@ -1,9 +1,9 @@
 ## if statement syntax
- fruit_name=$1
- quantity=$2
+ fruit_name=MANGO
+ quantity=10
 
- if [ $"fruit_name" == $1]; then
+ if [ $fruit_name == MANGO ]; then
 
-   echo Fruit Name is ${fruit_name}
+   echo quantity is ${quantity}
 
    fi
