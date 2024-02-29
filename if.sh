@@ -2,6 +2,11 @@
  fruit_name=$1
  quantity=$2
 
+ if [ -z "fruit_name" ]; then
+   echo Input is missing
+ exit
+   fi
+
  if [ "$fruit_name" == "mango" ]; then
 echo quantity is ${quantity}
 else
