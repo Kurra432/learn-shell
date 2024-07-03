@@ -16,3 +16,10 @@ How write a shell script file
 8.Exit Status
 9.Quotes
 
+#SED Editor
+
+1) Delete some line
+  based on line number
+#sed -i -e '1d' /etc/passwd 
+   based on string
+#sed -i -e '/nologin/ d' /etc/passwd
