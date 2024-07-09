@@ -38,3 +38,5 @@ How write a shell script file
 
    we can modify second in entry in same line we can replace 'g' by '2'
 6) d
+
+Problem : If input is not given then script should be fail
