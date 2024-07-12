@@ -15,3 +15,5 @@ echo -e "\e[Colm message \e[0m"
 #\e[0m - disable the colour  (once enable the colour we have to disable that , else colour follows others)
 
 echo -e "\e[31m red colour\e[0m"
+
+ech0 -e "\e[33m Venkatesh Kurra \e [0m"
