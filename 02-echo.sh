@@ -16,4 +16,4 @@ echo -e "\e[Colm message \e[0m"
 
 echo -e "\e[31m red colour\e[0m"
 
-ech0 -e "\e[33m Venkatesh Kurra \e [0m"
+echo -e "\e[33m Venkatesh Kurra \e [0m"
