@@ -9,3 +9,6 @@ function_name () {
 # calling a function
 
 function_name
+
+#we can send inputs to the function and we can access them by using special variables $1 -$n, $#, $*
+

@@ -8,7 +8,6 @@ echo name = {$name}
 
 
 
-
 ## If inputs not provided script will fail
 
 ## Special Variables and Inputs to the Variables
