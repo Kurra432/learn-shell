@@ -2,7 +2,9 @@ furit_name=mango
 
 quantity=20
 
-if [ "$fruit_name" == "mango"]; then
+if [ "$fruit_name" == "mango" ]
+
+then
 
   echo Mango quantity is $quantity
 
