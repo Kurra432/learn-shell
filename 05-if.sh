@@ -1,10 +1,8 @@
-furit_name=mango
+furit_name=$1
 
-quantity=20
+quantity=$2
 
-if [ "$fruit_name" == "mango" ]
-
-then
+if [ "$fruit_name" == "mango" ]; then
 
   echo Mango quantity is $quantity
 
