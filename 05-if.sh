@@ -1,17 +1,15 @@
-furit_name=$1
-
+fruit_name=$1
 quantity=$2
 
-if [ "$fruit_name" == "mango" ]; then
+if [ "$fruit_name" == "mango" ]
+then
+  echo Mango Quantity - $quantity
+else
+  echo Fruit does not exist
+fi
 
-  echo Mango quantity is $quantity
+## Always double quote variables in expressions
 
-  else
-    echo fruit does not exit
-
-    fi
-
-#Always double quote variables in expressions
 if [ "$quantity" -gt 100 ]; then
   echo Mango Price - 0.5$
 else
